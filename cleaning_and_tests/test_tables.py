@@ -1,5 +1,5 @@
 import unittest
-from cleaning import (employees, sales, students)
+from cleaning_tables import (employees, sales, students)
 
 def check_no_nulls(df, column):
     return df[column].notna().all()
