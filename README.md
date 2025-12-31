@@ -21,7 +21,7 @@ Testing:
 • Write tests for nulls, duplicates, schema.
 • Run with:
 pytest or
-python -m unittest discover
+python3 -m unittest
 
 Features:
 
